@@ -5,7 +5,7 @@ Because the fan model used by BLIKVM hardware is different from that of PIKVM ha
 ```
 su -
 rw
-git clone https://github.com/ThomasVon2021/blikvm.git
+git clone https://github.com/tangelo-services-org/blikvm.git
 cd blikvm/package/kvmd-fan
 bash install-kvmd-fan.sh
 ro
