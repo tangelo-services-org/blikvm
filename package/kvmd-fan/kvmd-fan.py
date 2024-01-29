@@ -3,6 +3,7 @@
 
 import RPi.GPIO
 import time
+import sys
 
 #settings
 fan_gpio=12 # Fan GPIO pin number (default: 12)
@@ -42,6 +43,7 @@ try:
 				pwm.stop()
 				print("PWM_Stop")
 
+		sys.stdout.flush()
 		time.sleep(5)
 				
 except KeyboardInterrupt:
